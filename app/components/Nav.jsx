@@ -46,7 +46,6 @@ var Nav= React.createClass ({
             <ul className="menu">
               <li>
                 <input type="search" placeholder="Search Weather">
-
                 </input>
               </li>
               <li>
