@@ -15,8 +15,19 @@ var React = require ('react');
 var About = (props) => {
   return (
     <div>
-      <h3>About Component111</h3>
-      <p>welcome to about page</p>
+      <h1 className="text-center">About Component111</h1>
+      <p>This is a waether application build on react.</p>
+      <p>
+        Here are some of the tools I used
+      </p>
+      <ul>
+        <li>
+          <a href="http://facebook.github.io/react">React</a> - This was the JaveScript Framework used.
+        </li>
+        <li>
+          <a href="http=openWeatherMap.org">open weather map</a> - I used open wather map to search for the weather
+        </li>
+      </ul>
     </div>
   )
 };
