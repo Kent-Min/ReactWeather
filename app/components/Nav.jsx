@@ -24,8 +24,9 @@ var Nav= (props) => {
           <IndexLink to="/" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Get Weather</IndexLink>
           <IndexLink to="/about" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>About</IndexLink>
           <IndexLink to = "Examples" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Examples</IndexLink>
-          <a href="#/about">go to about</a>
+
         </div>
+        // <a href="#/about">go to about</a>
       );
 
 };
