@@ -15,7 +15,6 @@ var ErrorModal = React.createClass({
   componentDidMount: function () {
     var modal = new Foundation.Reveal ($('#error-modal'));
     modal.open();
-
   },
 
   render: function () {
